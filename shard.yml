@@ -1,0 +1,17 @@
+name: crystal-simple-server
+version: 0.1.0
+
+authors:
+  - Gustavo Santos <gfdsantos@inf.ufpel.edu.br>
+
+targets:
+  crystal-simple-server:
+    main: src/crystal-simple-server.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.27.2
+
+license: MIT
